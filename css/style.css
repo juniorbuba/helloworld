@@ -1,0 +1,289 @@
+/*  /*Override default browser margin settings*/
+  *{
+  box-sizing:border-box;
+	padding:0;
+	margin:0;
+  }
+  .navbar{
+    min-height: 70px;
+  }
+  #img{
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .xsmall{
+  width: 68px;
+  height: 68px;
+}
+ span#ibeto{
+  color: #fff;
+ }
+ #ul{
+    margin-top: 6px;
+    margin-right: 25px;
+  }
+  .navbar-fixed-top{
+    padding-right: 30px;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 50%;
+      margin: auto;
+  }
+  .space{
+    margin-top: 30px;
+  }
+ .mymargin{
+    margin: 50px;
+  }
+  #whatwedo{
+    background-color: #222;
+    min-height: 180px;
+    margin-bottom: 50px;
+  }
+  #meetus{
+    background-color: #fff;
+    min-height: 180px;
+    margin-bottom: 50px;
+  }
+  #hide{
+    display: none;
+  }
+  .button{
+    background-color: #008cba;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 43%;
+    margin-top: 30px;
+}
+.button1{
+    background-color: #c2c2a5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 43%;
+    margin-top: 30px;
+}
+ .button:hover{
+   background-color: #222;
+ }
+ .parallax{
+    background-image: url("../images/cargo.jpg");
+    min-height: 400px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.parallax1{
+    background-image: url("../images/closeup-of-stainless-steel.jpg");
+    min-height: 400px; 
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxhotel{
+    background-image: url("../images/hotelpix/apartment-architecture.jpg");
+    min-height: 400px; 
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxhoteltop{
+    background-image: url("../images/hotelpix/adventure-clean.jpg");
+    min-height: 520px; 
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#overparallaxtop{
+  background: #000000;
+  background-size: cover;
+  position: relative;
+  opacity:  0.6;
+  color: #fff;
+  min-height: 520px;
+}
+#parallaxoil{
+   background-image: url("../images/architecture-buildings.jpg");
+    min-height: 520px; 
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#qualitytext{
+  position: absolute;
+  top: 200px;
+  font-size: 4em;
+  color: #fff;
+  margin-left: 50px;
+}
+#hoteltext{
+  position: absolute;
+  top: 250px;
+  font-size: 4em;
+  color: #fff;
+  margin-left: 50px;
+}
+#smalltext{
+  font-size: 30px;
+}
+.blue-text{
+  color: blue;
+  font-size: 20px;
+}
+.content{
+  display: none;
+}
+.white-text{
+  color: #fff;
+}
+iframe{
+  width: 100%;
+  height: 200px;
+}
+.thumbnail{
+  border-style : hidden;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #337ab7;
+  box-shadow: 20px;
+}
+#overparallax{
+  background: #000000;
+  background-size: cover;
+  position: relative;
+  opacity:  0.6;
+  color: #fff;
+  height: 400px;
+}
+#learnmore{
+  margin-left: 40%;
+  text-decoration: none;
+}
+.caption > a{
+  text-decoration: none;
+}
+#content{
+  margin: auto;
+}
+.small{
+  width: 200;
+  height: 200;
+}
+.large{
+   width: 100%;
+  height: 800px;
+}
+.glyphsize{
+  font-size: 60px;
+  margin-left: 40%;
+}
+.textmiddle{
+  text-align: center;
+}
+#sendmsg{
+  background-color: #008cba;
+    border: none;
+    color: white;
+    padding: 0px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.social-icon{
+  list-style: none;
+  display: inline;
+  line-height: 40px;
+  display: inline;
+}
+.morespace{
+  margin: 50px;
+}
+.fa-phone, .fa-fax, .fa-envelope-open, .fa-wifi, .fa-cutlery, .fa-thumbs-up, .fa-bolt{
+  color: #008cba; 
+}
+#contactspace{
+  margin-left: 40px;
+}
+#backtotop{
+
+}
+
+ /*Autoparts Cascading Style Sheets*/
+ #autoqualitytext{
+  position: absolute;
+  top: 200px;
+  font-size: 3em;
+  color: #fff;
+  margin-left: 50px;
+}
+.resizeimage{
+   width: 100%;
+  height: 360px;
+}
+#imglarge{
+  width: 100%;
+  height: 750px;
+}
+
+/*code to handle webpage rendition for smaller screens*/
+/*remove logo when screen is less than 768px*/
+@media screen and (max-width: 768px ){
+  #img{
+    display: none;
+  }
+  #qualitytext, #hoteltext{
+    display: none;
+  }
+  #imglarge{
+  width: 100%;
+  height: 100%;
+}
+  .floated{
+    float: left; 
+  }
+  .social-icon{
+    text-align: center;
+  }
+  #imagebanner{
+    margin-top: 50px;
+  }
+  .button{
+    margin-left: 25%;
+    font-size: 18px;
+  }
+  span#ibeto{
+    margin-left: 10px;
+    font-size: 18px;
+  }
+}
+
+
