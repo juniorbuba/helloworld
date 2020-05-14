@@ -1,5 +1,5 @@
 # helloworld
-first github repository
+First github repository
 
 i am new here and just messing around :)
 
